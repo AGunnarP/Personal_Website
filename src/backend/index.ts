@@ -18,7 +18,7 @@ app.get("/api/rank", async (req: Request, res: Response) => {
 
     try{
 
-        res.status(200).json((await contest_info).userContestRanking);
+        res.status(200).json((await contest_info).userContestRanking.topPercentage);
 
     }catch(err){
 

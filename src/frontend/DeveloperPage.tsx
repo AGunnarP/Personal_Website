@@ -109,7 +109,7 @@ function Blurb(){
                 I'm open to freelance work. If you want a project done send me an email with its specifications and I'll send you a quote for its cost.
                 <br/>
                 <br/>
-                The code for this website can be found <a >here</a>
+                The code for this website can be found <a href="https://github.com/AGunnarP/Personal_Website">here</a>
 
             </p>
 
