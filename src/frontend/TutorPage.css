@@ -1,0 +1,21 @@
+.Tutor_Div{
+
+    background-color: #3C4142;
+    height: 100%;
+
+    flex: 1;
+
+}
+
+.Tutor_Div p{
+
+    margin:0;
+    color: white;
+
+}
+
+.Tutor_Blurb_Div{
+
+    margin:0;
+
+}

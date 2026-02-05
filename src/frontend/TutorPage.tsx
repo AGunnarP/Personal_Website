@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import "./TutorPage.css"
+
 type BlurbProps = {
   score: number;
 };
