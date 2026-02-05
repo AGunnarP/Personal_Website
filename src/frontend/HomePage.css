@@ -37,11 +37,19 @@
     margin-top: 6rem;
     margin-right: 2rem;
     margin-left: 2rem;
+    text-align: left;
 
 }
 
 .First_Paragraph_Container p{
 
     color:white;
+
+
+}
+
+.First_Paragraph_Container a{
+
+    color: yellow;
 
 }

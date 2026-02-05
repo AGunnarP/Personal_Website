@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from '../assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 import HomePage from "./HomePage.tsx"
@@ -8,7 +5,7 @@ import TutorPage from "./TutorPage.tsx"
 import DeveloperPage from './DeveloperPage.tsx'
 import Header from "./Header.tsx"
 
-import {BrowserRouter as Router, Routes, Route, Link,} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 function App() {
 

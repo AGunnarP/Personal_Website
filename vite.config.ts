@@ -8,9 +8,10 @@ export default defineConfig({
   server:{
 
     proxy: {
-
-      '/api': 'http://localhost:3000/api'
-    }
+            // Forward all requests from localhost:5173/api/* to localhost:3000/api/*
+            "/api": "http://159.203.83.92:3000",
+            "/auth" : "http://159.203.83.92:3000"
+        }
 
   },
   plugins: [react({

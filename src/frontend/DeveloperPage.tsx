@@ -1,4 +1,7 @@
-import ProfessionalImage from "./ProfessionalImage.tsx";
+import './DeveloperPage.css'
+import CalPolyLogo from "../assets/Cal_Poly_Logo_and_Shield.png";
+import FileSystemDemo from "../assets/File_System_Demo.png";
+import ProgrammingLanguageDemo from "../assets/Programming_Language_Demo.png";
 
 function Education(){
 
@@ -8,7 +11,7 @@ function Education(){
 
             <div className="Picture_Paragraph_Container">
 
-                <img src="../assets/Cal_Poly_Logo_and_Shield.png"/>
+                <img src={CalPolyLogo}/>
                 <p>
 
                     I graduated from California Polytechnic State University - San Luis Obispo in December of 2025. 
@@ -39,7 +42,7 @@ function File_System(){
 
             <div className="Picture_Paragraph_Container">
 
-                <img src="../assets/File_System_Demo.png"/>
+                <img src={FileSystemDemo}/>
                 <p>
 
                     I think the most impressive project I've done so far as a software developer is the tiny file system I wrote for my Operating Systems class (CSC 453) for Professor Foaad Khosmood.
@@ -50,8 +53,8 @@ function File_System(){
                     <br/>
                     As you may expect, my professor has askekd us not to make the source code of the assignment publically accessible on Github, and therefore I cannot display it on this portfolio. 
                     I would be willing to pull it up during an interview, however. Instead, here is a demo picture demonstrating my file systems capability of creating, reading, writing, and deleting files,
-                    as well as its hierarchical directory, defragmenting, and list features. We had to simulate a disk and write this file system all form scratch in C. My project ended up being a little over
-                    2000 lines of code.
+                    as well as its hierarchical directory, defragmenting, and list features. We had to simulate a disk and write this file system all from scratch in C. My project ended up being a little over
+                    2000 lines of code. I plan on making a box such that people can ssh into File_System_Demo@AnthonyGunnarPage.com to interact with my project soon.
 
                 </p>
 
@@ -71,20 +74,28 @@ function Programming_Language(){
 
             <div className="Picture_Paragraph_Container">
 
-                <img src="../assets/Programming_Language_Demo"/>
+                <img src={ProgrammingLanguageDemo}/>
                 <p>
 
                     I think Professor Clements' Programming Language (CSC 430) class was the most difficult during my course at Cal Poly. 
                     We had to make a Turing complete purely functional programming language on week 2 and implement a new feature each week until week 10.
                     Often, we'd have to start from scratch as the feature was so fundemantal adding it constituted an entirely different programming language.
                     Up until that point I had never encountered the functional programming paradigm before.
-                    Then I had to write a programming language in a functional programming language I didn't know and had received no instruction on at week 2, definitely put some hair on my chest.
+                    Then, I had to write a programming language in a functional programming language I didn't know and had received no instruction on at week 2, definitely put some hair on my chest.
                     I definitely see the perks of a functional paradigm, I think one of my next projects will be writing a web application in elixir.
                     <br/>
                     <br/>
                     Once again, I have been asked not to make a public repository as current students may copy from it, cheating themselves out of learning.
                     I don't think there would be much harm in screensharing some of the code and walking through it during an interview, however. 
-                    For now please enjoy a demo of my language's capabilties.
+                    For now please enjoy a demo of my language's capabilties. 
+                    I'll eventually allow an interactive demo through ssh Programming_Language_Demo@AnthonyGunnarPage.com.
+                    For now, attached is a picture of the language I created in Racket.
+                    In the image, I declare an anonymous function as a local variable called sum_list in my programming language. 
+                    This anonymous function adds the elements of a list.
+                    I define another local variable called my_list which is a list of elements adding up to 35.
+                    I pass in my_list to sum_list.
+                    I call the interp function of my programming language to intereperet my code, printing the correct output of 35.
+                    
                     
 
 
@@ -106,7 +117,7 @@ function Blurb(){
 
             <p>
 
-                I'm open to freelance work. If you want a project done send me an email with its specifications and I'll send you a quote for its cost.
+                I'm open to freelance work. If you want a project done, send me an email with its specifications and I'll send you a quote for its cost.
                 <br/>
                 <br/>
                 The code for this website can be found <a href="https://github.com/AGunnarP/Personal_Website">here</a>

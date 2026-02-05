@@ -22,9 +22,10 @@ function HomePage(){
 
                     <br/>
                     <br/>
-                    For business inquiries please contact: <a>AnthonyGunnarPage@gmail.com</a>
-                    My <a href="https://www.linkedin.com/in/anthony-page-2a33b31b8/">LinkedIn</a>
-                    My <a href="https://github.com/AGunnarP">Github</a>
+                    For business inquiries please contact: <a>AnthonyGunnarPage@gmail.com</a><br/>
+                    My <a href="https://www.linkedin.com/in/anthony-page-2a33b31b8/">LinkedIn</a><br/>
+                    My <a href="https://github.com/AGunnarP">Github</a><br/>
+                    My <a href="https://leetcode.com/u/AnthonyPage">Leetcode</a><br/>
 
                 </p>
 

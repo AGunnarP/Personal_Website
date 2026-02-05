@@ -1,21 +1,17 @@
 import { useState } from "react";
 
-const [score, setScore] = useState<number>(19.59);
-
-async function Percentage(){
-
-    const p = (await fetch("/api/rank"));
-    setScore((await p.json()).topPercentage);
-
-}
+type BlurbProps = {
+  score: number;
+};
 
 
-function Blurb(){
+
+function Blurb(score: BlurbProps){
 
 
     return(
 
-        <div className="Blurb_Div">
+        <div className="Tutor_Blurb_Div">
 
             <p>
 
@@ -25,7 +21,7 @@ function Blurb(){
                 <br/>
                 <br/>
                 
-                I'm also within the top {score} percent of leetcode competitive coding contest players in terms of elo.
+                I'm also within the top <a href="https://leetcode.com/u/AnthonyPage">{score.score}</a> percent of leetcode competitive coding contest players in terms of elo.
                 I received a top rate Data Structures and Algorithms education and I'm happy to pass it on.
 
                 <br/>
@@ -35,8 +31,6 @@ function Blurb(){
                 Payment will be made up front in cash each session. Email me to book a session.
 
             </p>
-
-
 
         </div>
 
@@ -48,6 +42,17 @@ function Blurb(){
 
 function TutorPage(){
 
+    const [score, setScore] = useState<number>(19.59);
+
+    async function Percentage(){
+
+        var p = (await fetch("/api/rank"));
+        var percentage = (await p.json())
+            
+        setScore(percentage);
+
+    }
+
     Percentage();
 
     return(
@@ -55,7 +60,7 @@ function TutorPage(){
     <div className="Tutor_Div">
 
         
-        <Blurb/>
+        <Blurb score={score}/>
 
 
     </div>
