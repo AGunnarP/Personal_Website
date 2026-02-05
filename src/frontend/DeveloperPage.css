@@ -2,12 +2,13 @@
 
     background: blue;
     color: white;
-    
+
 }
+
+
 
 .Picture_Paragraph_Container{
 
-    display: flex;
     border: 2px solid blue;
     background: black;
     margin-bottom: 1%;
@@ -25,10 +26,30 @@
 .Picture_Paragraph_Container img{
 
     margin: 2%;
-    max-width: 25%;
+    max-width:75%;
+    max-height: 50%;
+    
+
+}
+
+@media(min-width:760px){
+
+    .Picture_Paragraph_Container{
+
+        display: flex;
+
+    }
+
+    .Picture_Paragraph_Container img{
+
+        max-width: 25%;
+
+
+    }
 
 
 }
+
 
 .Blurb_Div{
 

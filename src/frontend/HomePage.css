@@ -2,7 +2,7 @@
 
     background-color: #3C4142;
 
-    height:100%;
+    min-height:100vh;
     flex: 1;
 
 }
@@ -25,13 +25,6 @@
 
 }
 
-.Headshot_and_Intro_Paragraph_Container{
-
-    display:flex;
-    
-
-}
-
 .First_Paragraph_Container{
 
     margin-top: 6rem;
@@ -51,5 +44,39 @@
 .First_Paragraph_Container a{
 
     color: yellow;
+
+}
+
+@media(min-width: 760px){
+
+    .Headshot_and_Intro_Paragraph_Container{
+
+        display:flex;
+        
+
+    }
+
+}
+
+@media(max-width: 760px){
+
+    .Image_Container{
+
+        margin: auto;
+        max-width: 60%;
+        padding-top: 2%;
+        margin-bottom: 0;
+
+    }
+
+    .First_Paragraph_Container{
+
+    margin-top: 0;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    text-align: center;
+
+}
+
 
 }

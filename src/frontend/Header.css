@@ -1,17 +1,24 @@
+
+
 .Header_Div{
 
     background-color: #000080;
+    max-height: 20%;
 
 }
 
 .Nav_Link{
 
     margin-right: 1rem;
+    max-height: 100%;
 
 }
 
 h1{
 
     color:white;
+    font-size: 2rem;
+    max-height: 100%;
+
 
 }
