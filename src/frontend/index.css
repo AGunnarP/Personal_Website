@@ -28,6 +28,7 @@ a:hover {
 body, html{
 
   overflow-x: hidden;
+  max-height: 100%;
 
 }
 
@@ -35,8 +36,9 @@ body {
   margin: 0;
   display: block;
   min-width: 320px;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   height:100vh;
+  max-height:100%;
   position: relative;
   /*overflow: hidden;*/
 }
