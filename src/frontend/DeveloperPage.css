@@ -19,6 +19,7 @@
 .Picture_Paragraph_Container p{
 
     margin-left: 2%;
+    padding: 2%;
 
 
 }
@@ -28,6 +29,7 @@
     margin: 2%;
     max-width:75%;
     max-height: 50%;
+    min-width: 20%;
     
 
 }
