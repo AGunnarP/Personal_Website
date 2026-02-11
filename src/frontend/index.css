@@ -1,6 +1,7 @@
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1;
   font-weight: 400;
 
   height: 100%;
@@ -29,6 +30,8 @@ body, html{
 
   overflow-x: hidden;
   max-height: 100%;
+  margin: 0;
+  padding: 0;
 
 }
 
