@@ -2,6 +2,7 @@ import express from "express";
 import { LeetCode } from "leetcode-query";
 import cors from "cors";
 import path from "path";
+import fs from "fs";
 
 import type { Request, Response } from "express";
 
@@ -9,27 +10,32 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const leetcode = new LeetCode();
-const contest_info = leetcode.user_contest_info("AnthonyPage");
+
 
 const STATIC_DIR = "../../dist";
 const staticPath = path.resolve(process.cwd(), STATIC_DIR);
+
+const logStream = fs.createWriteStream('./app.log', { flags: 'a' });
 
 app.get("/api/rank", async (req: Request, res: Response) => {
 
     try{
 
-        console.log(req);
 
+
+        logStream.write(`${req.method} ${req.url}\n`);
+
+        const leetcode = new LeetCode();
+        const contest_info = leetcode.user_contest_info("AnthonyPage");
         const percentage = (await contest_info).userContestRanking.topPercentage;
 
-        console.log(percentage)
+        logStream.write(`\nTop percentage: ${percentage}\n`)
 
         res.status(200).json(percentage);
 
     }catch(err){
 
-        res.status(500).json({response:"Something went wrong while getting contest scores"});
+        res.status(500).json("Something went wrong while getting contest scores")
 
     }
 
