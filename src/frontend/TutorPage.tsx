@@ -44,7 +44,7 @@ function Blurb(score: BlurbProps){
 
 function TutorPage(){
 
-    const [score, setScore] = useState<number>(19.59);
+    const [score, setScore] = useState<number>(14.98);
 
     async function Percentage(){
 

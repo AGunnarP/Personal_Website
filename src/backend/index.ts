@@ -37,7 +37,6 @@ app.get("/api/rank", async (req: Request, res: Response) => {
 
         console.error("Rank API error:", err);
         logStream.write(`ERROR: ${err}\n`);
-        res.status(500).json("Something went wrong while getting contest scores")
 
     }
 
