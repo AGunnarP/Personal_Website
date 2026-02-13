@@ -50,6 +50,8 @@ function TutorPage(){
 
         var p = (await fetch("/api/rank"));
         var percentage = (await p.json())
+
+        console.log(percentage)
             
         setScore(percentage);
 
