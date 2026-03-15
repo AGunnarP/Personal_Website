@@ -1,0 +1,83 @@
+/* Windows.css - font-face declarations and helpers */
+
+@font-face {
+    font-family: 'Orange Kid';
+    src: url("../assets/fonts/Orange Kid.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'VT323';
+    src: url("../assets/fonts/VT323-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --ff-display: 'Orange Kid', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --ff-mono: 'VT323', "Courier New", Courier, monospace;
+}
+
+/* Utility classes */
+.font-orange-kid { font-family: var(--ff-display); }
+.font-vt323 { font-family: var(--ff-mono); }
+
+/* Example usage */
+.h1-display { font-family: var(--ff-display); font-size: 2rem; }
+.code-vt { font-family: var(--ff-mono); font-size: 1rem; }
+
+.Windows_Container {
+
+    max-height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Content_Container{
+
+    position: relative;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    max-height:93%;
+    margin:0;
+    padding: 0;
+
+
+}
+
+.Shortcuts_Container{
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0.5em 1em;
+    z-index: 1;
+
+}
+
+
+
+.Windows_Image{
+
+    position: relative;
+    max-height:100%;
+    width:100%;
+    z-index: 0;
+
+}
+
+
+.Start_Bar{
+
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+
+}

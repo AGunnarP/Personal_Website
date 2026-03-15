@@ -1,6 +1,7 @@
 import './App.css'
 
-import HomePage from "./HomePage.tsx"
+import Windows from './Windows.tsx'
+//import HomePage from "./HomePage.tsx"
 import TutorPage from "./TutorPage.tsx"
 import DeveloperPage from './DeveloperPage.tsx'
 import Header from "./Header.tsx"
@@ -12,7 +13,7 @@ function App() {
   return (
     
     <div className ="App_Container">
-
+      
       
 
       <Router>
@@ -21,7 +22,7 @@ function App() {
         
         <Routes>
 
-          <Route path="/" element={<HomePage/>}/>
+          <Route path="/" element={<Windows/>}/>
           <Route path="/tutor" element={<TutorPage/>}/>
           <Route path="/developer" element={<DeveloperPage/>}/>
 
