@@ -4,6 +4,7 @@ import ShortCuts from "./ShortCuts";
 
 import WindowsImage from "../assets/windows_xp.webp"
 import StartBar from "../assets/startbar1.png"
+import Links from "./Links";
 
 
 function Windows(){
@@ -24,8 +25,16 @@ function Windows(){
 
             </div>
 
-            
-            <img className="Start_Bar" src={StartBar} alt="Start Bar"/>
+            <div className= "Start_Bar_Container">
+
+                <img className="Start_Bar" src={StartBar} alt="Start Bar"/>
+
+
+
+                <Links/>                
+                
+
+            </div>
 
         </div>
 
