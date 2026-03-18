@@ -1,6 +1,7 @@
 import "./DisplayWindow.css";
 
 import {Window} from "./Windows";
+import Content from "./Content";
 
 import Logo from "../assets/anthonylogo.png"
 import Exit from "../assets/Exit.png"
@@ -23,12 +24,11 @@ function DisplayWindow({ display, setWindowDisplay }: DisplayWindowProps){
         return(<div/>);
 
 
-    console.log("got here");
-
     return(
 
 
         <div className="Container_Container">
+
 
             <div className="Display_Window_Container">
 
@@ -43,13 +43,16 @@ function DisplayWindow({ display, setWindowDisplay }: DisplayWindowProps){
 
                     
             
+            <div className="Grey_Background">
                 <div className="Content font-orange-kid">
 
+
+                    <Content display={display} />
 
 
                 </div>
 
-
+            </div>
 
 
             </div>

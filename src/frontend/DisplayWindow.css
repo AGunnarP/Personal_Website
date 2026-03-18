@@ -1,10 +1,10 @@
 .Container_Container{
 
     position: absolute;
-    width: 60%;
+    width: 70%;
     margin-left: 20%;
-    margin-top: 3%;
-    height:80%;
+    margin-top: 2%;
+    height:87%;
 
 
 }
@@ -59,14 +59,28 @@
 
 }
 
+.Grey_Background{
+
+    position: absolute;
+    background-color: #ede6d8;
+    width: 90%;
+    height: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+    z-index: 9;
+
+
+}
+
 .Content{
 
-
-    width: 80%;
-    height: 80%;
+    position: absolute;
+    width: 95%;
+    height: 95%;
     background-color: #ffffff;
-    margin: 5%;
-    margin-left: 10%;
+    margin: 1%;
+    margin-left: 2%;
+    z-index: 10;
 
 }
 

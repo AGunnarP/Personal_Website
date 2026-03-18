@@ -1,0 +1,55 @@
+.Contact_Info_Container{
+
+    flex-direction: row;
+
+    height: 100%;
+    width: 100%;
+
+}
+
+.flex_container{
+
+    min-width: 0;
+    display: flex;
+
+}
+
+
+
+
+.Left{
+
+    width: 40%;
+
+
+}
+
+.Left img{
+
+    margin:0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.Right{
+
+    flex-direction: column;
+    margin: 0;
+    width: 60%;
+
+
+}
+
+.Right p{
+
+    margin: 1%;
+
+}
+
+.Bottom{
+
+    max-height: 50%;
+
+}
