@@ -15,7 +15,7 @@ export const Window = {
     Education: 2,
     Tutoring: 3,
     TinyFS: 4,
-    Oazo: 5
+    Chat: 5
 
 }
 

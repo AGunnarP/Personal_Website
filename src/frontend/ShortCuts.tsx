@@ -5,7 +5,7 @@ import MailImage from "../assets/OE Create Mail.png"
 import CalPolyLogo from "../assets/Cal_Poly_Logo_and_Shield.png";
 import GradCap from "../assets/Grad_Cap.webp"
 import CLogo from "../assets/C_Logo.png"
-import RacketLogo from "../assets/Racket_Logo.svg"
+import ChatIcon from "../assets/Whistler - User Accounts.png"
 
 type ShortCutsProps = {
     setWindowDisplay : (window_display: number) => void;
@@ -41,9 +41,9 @@ function ShortCuts({ setWindowDisplay }: ShortCutsProps) {
 
             </button>
 
-            <button className = "Button_Container" onClick={() => setWindowDisplay(Window.Oazo)}>
+            <button className = "Button_Container" onClick={() => setWindowDisplay(Window.Chat)}>
 
-                <img className="Button_Image" src={RacketLogo} alt="Oazo"/>
+                <img className="Button_Image" src={ChatIcon} alt="Chat"/>
 
             </button>
 

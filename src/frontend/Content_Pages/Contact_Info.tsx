@@ -4,7 +4,7 @@ import ProfessionalImage from "../../assets/Professional_Image.jpg";
 import { useState } from "react";
 
 
-function Blurb({score}: {score: number}){
+function Blurb(){
 
     return(
 
@@ -27,7 +27,7 @@ function Blurb({score}: {score: number}){
 
                     Hello! Thank you for visiting my website! My name is Anthony Page and I am a recent grad from Cal Poly San Luis Obispo with a Bachelor's of Science in Computer Science. I am currently based in Oakland.
                     <br/><br/>
-                    I am currently a tutor teaching Math and Data Structures and algorithms. I charge a rate at $45/hr. I have six months of education experience and have carried out over 100 tutoring sessions. (I hate to brag about this but I feel the need to prove my credibility as a DSA tutor.) I am also within the top <a href="https://leetcode.com/u/AnthonyPage">{score}%</a> of users on Leetcode based on elo.
+                    
                     
 
                 </p>
@@ -64,7 +64,7 @@ function Contact_Info(){
 
     return(
 
-        <Blurb score={score}/>
+        <Blurb/>
 
     );
     
