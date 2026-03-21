@@ -1,7 +1,6 @@
 import "./Contact_Info.css"
 
 import ProfessionalImage from "../../assets/Me.jpeg";
-import { useState } from "react";
 
 
 function Blurb(){
