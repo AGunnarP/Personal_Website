@@ -48,20 +48,6 @@ function Blurb(){
 
 function Contact_Info(){
 
-    const [score, setScore] = useState<number>(10);
-
-    async function Percentage(){
-    
-            var p = (await fetch("/api/rank"));
-            var percentage = (await p.json())
-
-            setScore(percentage);
-    
-        }
-
-    Percentage();
-
-
     return(
 
         <Blurb/>
