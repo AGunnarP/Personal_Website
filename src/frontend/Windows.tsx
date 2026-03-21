@@ -2,7 +2,7 @@ import "./Windows.css"
 
 import ShortCuts from "./ShortCuts";
 
-import WindowsImage from "../assets/windows_xp.webp"
+import WindowsImage from "../assets/SLO.jpg"
 import StartBar from "../assets/startbar1.png"
 import Links from "./Links";
 import { useState } from "react";

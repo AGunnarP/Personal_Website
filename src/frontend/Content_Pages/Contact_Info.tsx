@@ -1,6 +1,6 @@
 import "./Contact_Info.css"
 
-import ProfessionalImage from "../../assets/Professional_Image.jpg";
+import ProfessionalImage from "../../assets/Me.jpeg";
 import { useState } from "react";
 
 
