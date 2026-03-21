@@ -20,7 +20,7 @@
 
     margin: 2%;
     max-width:75%;
-    max-height: 100%;
+    max-height: 50%;
     min-width: 25%;
     
 
@@ -41,5 +41,17 @@
 
     }
 
+
+}
+
+@media(max-width:760px){
+
+    .Picture_Paragraph_Container{
+
+        display: block;
+        overflow: scroll;
+
+
+    }
 
 }

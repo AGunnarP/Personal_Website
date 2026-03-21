@@ -31,11 +31,9 @@ function Windows(){
 
                 <img className="Windows_Image" src={WindowsImage} alt="Windows Image"/>
 
-                <div className="Shortcuts_Container">
 
-                    <ShortCuts setWindowDisplay={setWindowDisplay}/>
+                <ShortCuts setWindowDisplay={setWindowDisplay}/>
 
-                </div>
 
                 <DisplayWindow display={window_display} setWindowDisplay={setWindowDisplay}/>
 

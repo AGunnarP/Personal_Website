@@ -10,6 +10,7 @@
 }
 
 
+
 .Display_Window_Container{
 
     display: flex;
@@ -84,3 +85,23 @@
 
 }
 
+@media(max-width: 760px){
+
+    .Container_Container{
+
+        width:100%;
+        height:100%;
+        margin: 0;
+
+    }
+
+    .Grey_Background{
+
+        margin-top: 7%;
+
+        width: 87%;
+        height: 87%;
+
+    }
+
+}

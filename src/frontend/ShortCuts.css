@@ -12,9 +12,19 @@
 
 }
 
+.ShortCuts_Container{
+
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 80vh;    
+
+}
+
 .Button_Image{
 
-    width: 3rem;
-    height: 3rem;
+    max-width: 3rem;
+    max-height: 3rem;
 
 }

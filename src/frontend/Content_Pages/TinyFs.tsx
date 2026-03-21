@@ -10,16 +10,15 @@ function File_System(){
 
         <div className="File_System_Div">
 
-            <div className="Picture_Paragraph_Container">
+            <div className="Picture_Paragraph_Container_TFS">
 
-                <img src={FileSystemDemo}/>
+                <img className="FS_Image"src={FileSystemDemo}/>
                 <p>
 
-                    The impressive project I've done so far is the tiny file system I wrote for my Operating Systems class.
+                    The most impressive project I've done so far is the tiny file system I wrote for my Operating Systems class.
                     Against my best judement, I did this all myself.
                     The tiny file system assignment he gave us at the end of the quarter was meant for four people to complete over 3 weeks. With great difficulty, I did it myself in that time 
                     and earned myself the second best score on the project in the class. I still feel proud of that.
-                    <br/>
                     <br/>
                     My professor has asked us not to make the source code of the assignment publically accessible on Github, and therefore I cannot display it.
                     I would be willing to pull it up during an interview, however. TinfyFS is capable of reading, writing, and deleting files,
