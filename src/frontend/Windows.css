@@ -20,6 +20,7 @@
     --ff-display: 'Orange Kid', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     --ff-mono: 'VT323', "Courier New", Courier, monospace;
     height: 100vh;
+    overflow: hidden;
 }
 
 /* Utility classes */
@@ -122,6 +123,29 @@
     padding: 0;
     z-index: 0;
     flex-shrink: 0;
+
+}
+
+@media(max-width: 760px){
+
+    .Content_Container{
+
+        height: 90vh;
+
+    }
+
+
+    .Windows_Image{
+
+        height: 82vh;
+
+    }
+
+    .Start_Bar_Container{
+
+        height: 8vh;
+
+    }
 
 }
 

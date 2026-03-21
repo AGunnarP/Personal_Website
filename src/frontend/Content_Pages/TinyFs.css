@@ -44,6 +44,7 @@
     .Picture_Paragraph_Container_TFS{
 
         display: flex;
+        
 
     }
 
@@ -51,6 +52,17 @@
 
         max-width: 25%;
 
+
+    }
+
+
+}
+
+@media(max-width: 760px){
+
+    .Picture_Paragraph_Container_TFS{
+
+        overflow: scroll;
 
     }
 
