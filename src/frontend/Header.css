@@ -23,3 +23,14 @@ h1{
 
 }
 
+@media(max-width: 760px){
+
+    .Header_Div{
+
+        height: 10vh;
+
+
+    }
+
+}
+
