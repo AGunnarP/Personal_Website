@@ -4,8 +4,8 @@
   line-height: 1.5;
   font-weight: 400;
 
-  height: 100%;
-  width: 100vw;
+  height: 100dvh;
+  width: 100dvw;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -29,7 +29,7 @@ a:hover {
 body, html{
 
   overflow-x: hidden;
-  max-height: 100%;
+  max-height: 100dvh;
   margin: 0;
   padding: 0;
 
@@ -39,11 +39,9 @@ body {
   margin: 0;
   display: block;
   min-width: 320px;
-  /*min-height: 100vh;*/
   height:100dvh;
   max-height:100%;
   position: relative;
-  /*overflow: hidden;*/
   
 }
 
